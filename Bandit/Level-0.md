@@ -6,4 +6,4 @@ Level 1’e geçmek için gereken şifre, bu seviyeye SSH ile bağlandıktan son
 
 ## SSH ile Bağlantı
 ```bash
-/ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh bandit0@bandit.labs.overthewire.org -p 2220
