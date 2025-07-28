@@ -26,4 +26,7 @@ cat ./-
 - 2- ls -a (Gizli dizin görünebilir)
 - 3- cat ./- (Dosya içeriğini okur)
 
--- Şifre = 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+Password =
+```bash
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+```
