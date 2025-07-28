@@ -13,16 +13,16 @@ Password:
   ```
 ## Kullanılan Komutlar
 ```bash
-ls -a
+ls
 ```
-- **Dosya Konumunun içeriğini listeler (-a Gizli dizinleride listeler)**
+- **Dosya Konumunun içeriğini listeler.**
 ```bash
-cat ./-
+cat "spaces in this filename"
 ```
-- **Dosya içeriğini okur (Tek Başına cat - algılamaz [-] bit syntaxdır bu neden ile başına [./] Konur.) **
+- **Dosya içeriğini okur (Tek Başına cat -.) **
 
 ## Çözüm Adımları:
-- 1- ssh bandit1@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu)
+- 1- ssh bandit2@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu)
 - 2- ls -a (Gizli dizin görünebilir)
 - 3- cat ./- (Dosya içeriğini okur)
 
