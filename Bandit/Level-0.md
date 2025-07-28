@@ -31,4 +31,7 @@ cat readme
 - 2- ls (Dizin listelenir)
 - 3- cat readme (dosya içeriğini okur)
 
-Şifre = ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+Password:
+```bash
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+```
