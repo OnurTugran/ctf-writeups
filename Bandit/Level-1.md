@@ -7,7 +7,7 @@
 ```bash
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
-- password:
+- Password:
   ```bash
   ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
   ```
@@ -26,4 +26,7 @@ cat ./-
 - 2- ls -a (Gizli dizin görünebilir)
 - 3- cat ./- (Dosya içeriğini okur)
 
--- Şifre = 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+Password = 
+```bash
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+```
