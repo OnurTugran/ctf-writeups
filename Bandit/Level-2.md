@@ -19,12 +19,12 @@ ls
 ```bash
 cat "spaces in this filename"
 ```
-- **Dosya içeriğini okur (Tek Başına cat -.) **
+- **Dosya içeriğini okur arası boşluk olan isimlerde (") tırnak içinde yazmak gerekli. **
 
 ## Çözüm Adımları:
 - 1- ssh bandit2@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu)
-- 2- ls -a (Gizli dizin görünebilir)
-- 3- cat ./- (Dosya içeriğini okur)
+- 2- ls  (Dizin görünebilir)
+- 3- cat "spaces in this filename" (Dosya içeriğini okur)
 
 Password =
 ```bash
