@@ -7,9 +7,9 @@
 ```bash
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 ```
-- password:
+Password:
   ```bash
-  ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+  263JGJPfgU6LtdEvgfWU1XP5yac29mFx
   ```
 ## Kullanılan Komutlar
 ```bash
