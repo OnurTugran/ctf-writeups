@@ -7,7 +7,7 @@
 ```bash
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
-- Password:
+Password:
   ```bash
   ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
   ```
