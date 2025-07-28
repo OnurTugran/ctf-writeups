@@ -1,31 +1,41 @@
 # Level 2 ➜ Level 3
 
 ## Görev
-**Level 3'e geçmek için "spaces in this filename " adlı dizinde saklanıyor.**
+**İnhere Klasörü İçindeki gizli dizimi bulmak.**
 
 ## SSH ile Bağlantı
 ```bash
-ssh bandit2@bandit.labs.overthewire.org -p 2220
+ssh bandit3@bandit.labs.overthewire.org -p 2220
 ```
 Password:
   ```bash
-  263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+  MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
   ```
 ## Kullanılan Komutlar
 ```bash
 ls
 ```
-- **Dosya Konumunun içeriğini listeler.**
+- **Dizinleri listeler.**
 ```bash
-cat "spaces in this filename"
+cd inhere
 ```
-- **Dosya içeriğini okur arası boşluk olan isimlerde (") tırnak içinde yazmak gerekli. **
+- **Cd Komutu ile inhere klasörüne girer. **
+```bash
+ls -a
+```
+-**Gizli olan dizinler görüntülenir.**
+```bash
+cat ...Hiding-From-You
+```
+-**Hidding-From-You dizini okunur.**
 
 ## Çözüm Adımları:
-- 1- ssh bandit2@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu)
-- 2- ls  (Dizin görünebilir)
-- 3- cat "spaces in this filename" (Dosya içeriğini okur)
-
+- 1- ssh bandit3@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu.)
+- 2- ls  (Dizin görünebilir.)
+- 3- cd inhere (Klasöre girilir.)
+- 4- ls -a (Gizli dizinleri gösterilir.)
+- 5- cat ...Hiding-From-You  (Dosya içeriğini okur)
+  
 Password =
 ```bash
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
