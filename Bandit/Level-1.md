@@ -1,4 +1,4 @@
-# Level 1 ➜ Level 1
+# Level 1 ➜ Level 2
 
 ## Görev
 **Level 2'ye geçmek için gizlenmiş dosyayı oku.**
@@ -8,20 +8,22 @@
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
 - password:
-
+  ```bash
+  ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+  ```
 ## Kullanılan Komutlar
 ```bash
-ls
+ls -a
 ```
-- **Dosya Konumunun içeriğini listeler**
+- **Dosya Konumunun içeriğini listeler (-a Gizli dizinleride listeler)**
 ```bash
-cat readme
+cat ./-
 ```
-- **Dosya içeriğini okur.**
+- **Dosya içeriğini okur (Tek Başına cat - algılamaz [-] bit syntaxdır bu neden ile başına [./] Konur.) **
 
 ## Çözüm Adımları:
-- 1- ssh bandit0@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu)
-- 2- ls (Dizin listelenir)
-- 3- cat readme (dosya içeriğini okur)
+- 1- ssh bandit1@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu)
+- 2- ls -a (Gizli dizin görünebilir)
+- 3- cat ./- (Dosya içeriğini okur)
 
-Şifre = ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+-- Şifre = 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
