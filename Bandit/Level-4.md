@@ -1,4 +1,4 @@
-# Level 2 ➜ Level 3
+# Level 4 ➜ Level 5
 
 ## Görev
 **İnhere Klasörü İçindeki gizli dizimi bulmak.**
@@ -9,7 +9,7 @@ ssh bandit4@bandit.labs.overthewire.org -p 2220
 ```
 Password:
   ```bash
-  MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+  2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
   ```
 ## Kullanılan Komutlar
 ```bash
