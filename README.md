@@ -8,3 +8,4 @@ Bu dizinde OverTheWire "Bandit" oyununun seviyelerine dair çözümleri bulabili
 - [Level 1](Bandit/Level-1.md)
 - [Level 2](Bandit/Level-2.md)
 - [Level 3](Bandit/Level-3.md)
+- [Level 4](Bandit/evel-4.md)
