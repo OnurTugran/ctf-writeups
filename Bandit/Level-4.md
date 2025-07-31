@@ -1,7 +1,7 @@
 # Level 4 ➜ Level 5
 
 ## Görev
-**İnhere Klasörü İçindeki gizli dizimi bulmak.**
+**Only-Human Readable dosyayı inhere klasöründe bul.**
 
 ## SSH ile Bağlantı
 ```bash
@@ -13,28 +13,26 @@ Password:
   ```
 ## Kullanılan Komutlar
 ```bash
-ls
+ls -la
 ```
-- **Dizinleri listeler.**
+- **Gizli ve normal dizinleri detaylı listeler.**
 ```bash
-cd inhere
+file -- ./*
 ```
-- **Cd Komutu ile inhere klasörüne girer. **
+- **File komutu,dosyanın içeriğine bakar ve ne tür bir dosya sözyler. **
+- **(--) - ile başlayan dosya adları için gereklidir yoksa komut sanar.**
+- **(./*) Mevcut klasördeki tüm dosyaları ifade eder.**
 ```bash
-ls -a
+cat ./-file07
 ```
--**Gizli olan dizinler görüntülenir.**
-```bash
-cat ...Hiding-From-You
-```
--**Hidding-From-You dizini okunur.**
+-**File07 dosyasını okur.**
 
 ## Çözüm Adımları:
-- 1- ssh bandit3@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu.)
-- 2- ls  (Dizin görünebilir.)
-- 3- cd inhere (Klasöre girilir.)
-- 4- ls -a (Gizli dizinleri gösterilir.)
-- 5- cat ...Hiding-From-You  (Dosya içeriğini okur)
+- 1- ssh bandit4@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu.)
+- 2- ls -la (Gizli dizinler ve dizinler detaylı görünebilir.)
+- 3-  file -- ./* (İle file isimli dosyaların içeriğinin ne olduğunu gösterir.)
+- 4- ASCII text hangi dosyada yazıyor bakıyoruz.
+- 5- cat ./-file07 ile dosyayı okutup şifremizi alıyoruz.
   
 Password =
 ```bash
