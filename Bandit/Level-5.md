@@ -16,29 +16,26 @@ Password:
   ```
 ## Kullanılan Komutlar
 ```bash
-ls -la
+find inhere -type f -size 1033c ! -executable -exec file {} \; | grep "ASCII text"
 ```
-- **Gizli ve normal dizinleri detaylı listeler.**
+- **Verdiği özellikleri Girip Hangi Dosyan konumunda buldum.**
 ```bash
-file -- ./*
+cat ./.file2
 ```
-- **File komutu,dosyanın içeriğine bakar ve ne tür bir dosya sözyler. **
-- **(--) - ile başlayan dosya adları için gereklidir yoksa komut sanar.**
-- **(./*) Mevcut klasördeki tüm dosyaları ifade eder.**
+- **./file2 Nin içini okumana yarar**
 ```bash
 cat ./-file07
 ```
 -**File07 dosyasını okur.**
 
 ## Çözüm Adımları:
-- 1- ssh bandit4@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu.)
-- 2- ls -la (Gizli dizinler ve dizinler detaylı görünebilir.)
-- 3-  file -- ./* (İle file isimli dosyaların içeriğinin ne olduğunu gösterir.)
-- 4- ASCII text hangi dosyada yazıyor bakıyoruz.
-- 5- cat ./-file07 ile dosyayı okutup şifremizi alıyoruz.
+- 1- ssh bandit5@bandit.labs.overthewire.org -p 2220 ( Bağlantı kuruldu.)
+- 2- cd inhere (Gizli dizinler ve dizinler detaylı görünebilir.)
+- 3- find inhere -type f -size 1033c ! -executable -exec file {} \; | grep "ASCII text" (İle  bize verdiği bilgileri girip bulduk.)
+- 4- cat ./.file2 (İçini Okumak için)  
   
 Password =
 ```bash
-4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 ```
 
