@@ -1,10 +1,10 @@
 # Level 5 ➜ Level 6
 
 ## Görev
-**Bir sonraki seviyenin şifresi, inhere dizininin altında bir yerde bir dosyada saklanır ve aşağıdaki özelliklerin tümüne sahiptir:
-human-readable
-1033 bytes in size
-not executable
+**Bir sonraki seviyenin şifresi, inhere dizininin altında bir yerde bir dosyada saklanır ve aşağıdaki özelliklerin tümüne sahiptir:  
+human-readable  
+1033 bytes in size  
+not executable  
 
 **
 
@@ -14,7 +14,7 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 ```
 Password:
   ```bash
-  2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+  4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
   ```
 ## Kullanılan Komutlar
 ```bash
