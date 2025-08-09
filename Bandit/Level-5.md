@@ -4,9 +4,7 @@
 **Bir sonraki seviyenin şifresi, inhere dizininin altında bir yerde bir dosyada saklanır ve aşağıdaki özelliklerin tümüne sahiptir:  
 human-readable  
 1033 bytes in size  
-not executable  
-
-**
+not executable**
 
 ## SSH ile Bağlantı
 ```bash
